@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Salary Calculator</h1>
+  </header>
+
+  <main>
+
+    <section>
+      <h3>Add Employee</h3>
+      <form>
+        <input id="fName"
+          placeholder="First Name"
+          type="text">
+        <input id="lName"
+          placeholder="Last Name"
+          type="text">
+        <input id="id"
+          placeholder="ID"
+          type="text">
+        <input id="title"
+          placeholder="Title"
+          type="text">
+        <input id="salary"
+          placeholder="Annual Salary"
+          type="text">
+        <button class="submitButton">Submit</button>
+      </form>
+    </section>
+    
+    <section>
+      <h3>Employees</h3>
+      <table id="employees">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr class="newEmployee">
+          </tr>
+          <tr class="newEmployee">     
+          </tr>
+          <tr class="newEmployee">      
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <h2>Total Monthly: <span id="monthlyCosts"></span></h2>
+
+  </main>
+
+  <footer>
+    <h5></h5>
+  </footer>
+</body>
+</html>
